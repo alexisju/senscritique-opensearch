@@ -1,0 +1,9 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Sens Critique - films</os:ShortName>
+<os:Description>Recherche de films dans SensCritique.com</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAADkAAAA5CAMAAAC7xnO3AAABgFBMVEU1MTL///8jHyAlISL8/PxMSElZVlc9OTqwrq/BwMAkICHt7e3DwsPh4ODj4+P9/f1BPj/CwcHa2dn4+Pj29fUnIySkoqIvKyynpaZfXFzEw8T39/eqqanHxsby8vJ4dXasq6s7ODh4dncsKSrT0tL6+vqtrKz29vaenZ1pZme3trY4NDVQTU3g3+BEQEHv7++dm5vV1NRYVVXb2tpYVVaUkpNta2v19PVjYGFST1C1s7Q5Njf8+/xOS0z+/v6Rj5AxLS6GhIWqqKg/PD3x8fG4t7e0s7NlYmNnZGVwbW7r6+ufnZ5TUFFzcXFGQ0RVUlN9envJyMjFxMRvbG2Jh4dHREVqZ2hraWnu7e75+flFQULs7OyEgoOFg4Tk5OSSkJGNi4xgXV7S0dLY19irqqpiX2Dp6ekpJSa2tLXi4eHIx8fMy8uopqegnp/Pzs4rJyiQjo4/OzxXVFT7+/vz8/N/fX7W1dWBf3+8ursmIyPKycrv7u7p6Ojw8PCenJzDwsJR3vMhAAABx0lEQVR4Xu3U1XurMBjAYb4Pqbt75+7u7r6j7u7u8q8vgcFY2wToc+7W3xUXeQM8EQFMoVVg6kLLhmzI4XR0AuJ3s+/3DTCz5HkKkBtJKxw54wejiGaF5VnQOwozZQBMtV0jcNgHpopMSQuuuf9dp/JzP+JoThV9z/Me9YknB0VE9Pa6Q3AVsUedojCHpMVOC/kOtaYuI2KZwjciajVDnCcVPKtJIjArot4lgSel9a4WXd4Gkmy9nkah1sFJ9aO7CXyEtmTO0PHkCmIrkXl7Uh4yzbKHUSL/2pMoTk4PGHbDwTuRJMpfpldV+cLBf+JpifEgpWPUX7ElXaj3kaIHEpERr+G2BKaMlfRho1R+KFPfebaHYpz1fJVRx7lGCPnt1fbtsb19CwP+9vafs1TcR1S4Z4XV22dV5/MPU7olw80nU1V3QsTFlNh053sgBp9uFRbClfdQNLn7/+6+huzfSdQne33gT9UjMxMA8LXHuRxvA1rwplP5LQRavw6cyXtg1LHpQIqvwZR0aFsmuuF8YzZl6iVU9viHHSkMQXWeFmsZ7oNaPRSspLwNtQuE+VIpAivfFE923QB2HU/YslkCXlKJIR1WvzwByQ8+YmXy/QEAAAAASUVORK5CYII=</os:Image>
+<SearchForm>http://www.senscritique.com/films</SearchForm>
+<os:Url type="text/html" method="GET" template="http://www.senscritique.com/recherche?query={searchTerms}&amp;filter=movies">
+</os:Url>
+</SearchPlugin>
