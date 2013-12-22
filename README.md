@@ -7,8 +7,7 @@ Si vous utilisez la barre de recherche présente dans Firefox et consultez régu
 
 INSTALLATION :
 
-1. Copier les fichiers .xml dans le dossier "searchplugins" qui se trouve dans le dossier utilisateur de Mozilla Firefox.
-   (sous Linux, c’est /home/votre_utilisateur/.mozilla/firefox/######.default/searchplugins/)
+1. Copier les fichiers .xml dans le dossier "searchplugins" qui se trouve dans le dossier utilisateur de Mozilla Firefox (sous Linux, c’est /home/votre_utilisateur/.mozilla/firefox/######.default/searchplugins/).
 2. Redémarrer Mozilla Firefox
 
 
